@@ -20,7 +20,7 @@ player = 1
 
 def checkWinner():
     if (button1['text'] == 'O' and button2['text'] == 'O' and button3['text'] == 'O' or
-       button4['text'] == 'O' and button5['text'] == 'O' and button5['text'] == 'O' or
+       button4['text'] == 'O' and button5['text'] == 'O' and button6['text'] == 'O' or
        button7['text'] == 'O' and button8['text'] == 'O' and button9['text'] == 'O' or
        button1['text'] == 'O' and button4['text'] == 'O' and button7['text'] == 'O' or
        button2['text'] == 'O' and button5['text'] == 'O' and button8['text'] == 'O' or
@@ -30,7 +30,7 @@ def checkWinner():
         messagebox._show("Winner of game", "Player O is winner i.e. Player 2")
 
     elif (button1['text'] == 'X' and button2['text'] == 'X' and button3['text'] == 'X' or
-          button4['text'] == 'X' and button5['text'] == 'X' and button5['text'] == 'X' or
+          button4['text'] == 'X' and button5['text'] == 'X' and button6['text'] == 'X' or
           button7['text'] == 'X' and button8['text'] == 'X' and button9['text'] == 'X' or
           button1['text'] == 'X' and button4['text'] == 'X' and button7['text'] == 'X' or
           button2['text'] == 'X' and button5['text'] == 'X' and button8['text'] == 'X' or
